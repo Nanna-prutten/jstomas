@@ -6,11 +6,11 @@
             var colors = [ "black", "white", "red", "green"]; 
             
             function changeColor (Element, color) {
-                element.style.backgroundColor = color;
+                Element.style.backgroundColor = color;
             }
             
             function printColors() {
-                var p = document.getElementById('colorsParagraph');
+                var p = document.getElementById("colorsParagraph");
                 p.innerHTML += colors[0];
                 p.innerHTML += ","; 
                 p.innerHTML += colors[1];
@@ -25,7 +25,7 @@
     
     </head>
 
-    <body onload="printColors()"> 
+    <body onload="printColors" ()> 
         <h1> Website Colors:</h1>
         <p id="colorsParagraph"></p>
     
