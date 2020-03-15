@@ -5,7 +5,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title> javascript tomas  </title>
 </head>
-<h1> Hej jeg savner John <h1>
  <body>
+ <h1> Hej jeg savner John <h1>
 </body>
 </html>
