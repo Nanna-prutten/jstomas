@@ -1,5 +1,5 @@
 @media screen and (max-width:630px) {
-  
+
   body {
     margin: 0;
     font-family: 'Noto Sans HK', sans-serif;
@@ -32,4 +32,6 @@
     margin-right: -10%;
     padding: 1%;
   }
+
+@media screen and (max-width:630px) {
 }
