@@ -1,0 +1,129 @@
+@media screen and (max-width:630px) {
+  body {
+    margin: 0;
+    font-family: 'Noto Sans HK', sans-serif;
+  }
+  .header {
+    overflow: hidden;
+    background-color: #C31414;
+    padding: 10px 10px;
+    align-self: center;
+  }
+  .header a {
+    float: right;
+    color: white;
+    padding: 40%;
+    font-size: 25px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  .header a.logo {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .button {
+    background-color: #C31414;
+    border: none;
+    color: white;
+    float: left;
+    margin-right: -10%;
+    padding: 1%;
+  }
+
+}
+   .container {
+       
+       color: white;
+       text-align: center;
+       background-color: #646464; 
+       height: auto;
+       margin: -5%;
+       width: auto;
+       margin-right: 
+     
+}
+.container1 img {
+     width: 100px;
+    height: 100px;
+    margin-top: 7%;
+    margin-left: 15%;
+    
+} 
+
+.container1 h2 {
+    float: right;
+    margin-right: 25%;
+    margin-top: 10%;
+}
+hr.solid {
+  border-top: 3px solid #C31414;
+}
+    
+.container2 h2 {
+    
+    margin-left: 37%;
+}
+.container2 p {
+    margin-left: 28%;
+
+}
+.container3 h3 {
+    
+    margin-left: 43%;
+    color: #FF0707;
+}
+.container3 p {
+    margin-left: 23%;
+
+}
+.container4 button {
+    background-color:#fff;
+    color: #000;
+    border-radius: 0.75em;
+    border: 0.0625em solid #000;
+    width: 18.25em;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Noto Sans HK';
+    margin-top: 10%;
+    margin-left: 22%;
+    padding: 1%;
+    transition-duration: 0.4s;
+
+}
+
+.container5 button {
+    background-color:#fff;
+    color: #000;
+    border-radius: 0.75em;
+    border: 0.0625em solid #000;
+    width: 18.25em;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Noto Sans HK';
+    margin-top: 10%;
+    margin-left: 22%;
+    padding: 1%;
+    transition-duration: 0.4s;
+
+}
+
+.container6 button {
+    background-color:#73AE5F;
+    color: #fff;
+    border-radius: 0.75em;
+    border: 0.0625em solid #fff;
+    width: 18.25em;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Noto Sans HK';
+    margin-top: 10%;
+    margin-left: 22%;
+    padding: 1%;
+    transition-duration: 0.4s;
+
+}
+    
+    
+    
+    
