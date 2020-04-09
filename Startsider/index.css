@@ -2,22 +2,23 @@ body {
   margin:0;
   font-family: 'Noto Sans HK', sans-serif;
 }
-
-
-/*HEADER*/
-header {
-  margin: auto;
-  min-width: 275px;
-  max-width: 630px;
-  height: 81.28px;
+.header {
   overflow: hidden;
   background-color: #C31414;
+  padding: 0.625em 0.625em;
   align-self: center;
-  position: sticky;
-  top: 0;
-  z-index: 1;
 }
-
+.arrow button {
+  width: 25;
+  background-color: #C31414;
+  font-size: 20px;
+  border: none;
+  color: #ffffff;
+  float: left;
+  margin-right: -10%;
+  padding: 1%;
+  cursor: pointer;
+}
 .header-img {
   height: 100%;
   width: 157.44px;
@@ -70,11 +71,25 @@ header a {
 }
 
 .links-knapper a {
+  background-color: #C31414;
   color: white;
   text-decoration: none;
 }
-
-.kasse {
+.kasse button {
+  background-color: #C31414;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: 'Noto Sans HK';
+  width: 80%;
+  margin-left: 9%;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  padding: 15px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.kasse1 {
   background-color: #C31414;
   width: 80%;
   margin: auto;
@@ -83,8 +98,8 @@ header a {
   border: 1px solid #ffffff;
   padding: 2px;
   margin-bottom: 30px;
+  cursor: text;
 }
-
 .kasse-sort {
   background: rgba(0, 0, 0, 0.4);
   width: 80%;
@@ -94,6 +109,7 @@ header a {
   border: 1px solid #ffffff;
   padding: 2px;
   margin-bottom: 30px;
+  cursor: text;
 }
 
 .links-knapper p {
