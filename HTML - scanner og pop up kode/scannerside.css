@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: 'Noto Sans HK', sans-serif;
-  background-image: url("gang.png");
+  background-image: url("madhylder.png");
   background-size: cover;
 }
 .header {
@@ -31,7 +31,7 @@ body {
 }
 .xxxxxx {
   background-color: #000000;
-  opacity: 0.5;
+  opacity: 0.6;
   color: #ffffff;
   border-radius: 1.125em;
   border: 0.0625em solid #ffffff;
@@ -61,7 +61,7 @@ body {
   }
 .tekst {
   background-color: #000000;
-  opacity: 0.5;
+  opacity: 0.6;
   width: 50%;
   color: #ffffff;
   border-radius: 1.125em;
