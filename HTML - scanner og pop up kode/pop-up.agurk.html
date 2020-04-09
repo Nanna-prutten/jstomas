@@ -9,12 +9,12 @@
   <title>Varejagt</title>
 </head>
 <body>
-  <main>
-  <a href="#" class="button"> <i class="material-icons" style="font-size:20px; color: #ffffff;">arrow_back</i></a>
+  <div class="arrow">
+  <button onclick="goBack()">&#8592;</button>
     <div class="header">
       <img src="coopde.png"  style="width:25%; margin-left: 38%;" alt="hvidt logo">
     </div>
-  </main>
+  </div>
 <div class="pop">
   <div class="form-popup" id="myForm">
     <div class="sprite"></div>
@@ -23,6 +23,10 @@
   </div>
 </div>
 <script>
+function goBack(){
+  window.history.back();
+}
+
 function openForm() {
   document.getElementById("myForm").style.display = "block";
   }

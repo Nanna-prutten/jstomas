@@ -12,13 +12,16 @@ body {
   padding: 0.625em 0.625em;
   align-self: center;
 }
-.button {
+.arrow button {
+  width: 25;
   background-color: #C31414;
+  font-size: 20px;
   border: none;
-  color: white;
+  color: #ffffff;
   float: left;
   margin-right: -10%;
   padding: 1%;
+  cursor: pointer;
 }
 .overskrift{
   font-size: 2.5em;
@@ -39,28 +42,27 @@ body {
   margin-top: 2%;
   margin-bottom: 2%;
   }
-.TagBillede {
+.billedeknap button {
   background-color:#73AE5F;
   color: #ffffff;
+  font-size: 1em;
+  font-family: 'Noto Sans HK';
   text-decoration: none;
+  margin-top: 5%;
+  margin-left: 9%;
+  align-content: center;
+  transition-duration: 0.4s;
   border-radius: 0.75em;
   border: 0.0625em solid #ffffff;
-  text-align: center;
   padding-left: 30%;
   padding-right: 30%;
   padding-bottom: 1%;
-}
-.billedeknap {
-  font-size: 1em;
-  font-family: 'Noto Sans HK';
-  margin-top: 5%;
-  margin-left: 15%;
-  transition-duration: 0.4s;
-  align-content: center;
+  cursor: pointer;
   }
 .tekst {
   background-color: #000000;
   opacity: 0.5;
+  width: 50%;
   color: #ffffff;
   border-radius: 1.125em;
   border: 0.0625em solid #ffffff;

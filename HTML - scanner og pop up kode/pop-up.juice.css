@@ -10,13 +10,15 @@ body {
   padding: 0.625em 0.625em;
   align-self: center;
 }
-.button {
+.arrow button {
   background-color: #C31414;
+  font-size: 20px;
   border: none;
-  color: white;
+  color: #ffffff;
   float: left;
   margin-right: -10%;
   padding: 1%;
+  cursor: pointer;
 }
 .pop {
   background-color: rgba(0,0,0,0.7);

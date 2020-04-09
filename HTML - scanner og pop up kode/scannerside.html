@@ -9,12 +9,12 @@
   <title>Varejagt</title>
 </head>
 <body>
-  <main>
-  <a href="#" class="button"> <i class="material-icons" style="font-size:20px; color: #ffffff;">arrow_back</i></a>
+  <div class="arrow">
+  <button onclick="goBack()">&#8592;</button>
     <div class="header">
       <img src="coopde.png"  style="width:25%; margin-left: 38%;" alt="hvidt logo">
     </div>
-  </main>
+  </div>
 <div class="overskrift">
   <p>Find varen fra din
     <br>liste og scan
@@ -22,9 +22,13 @@
 </div>
 <input type="submit" class="xxxxxx" value="xxxxxx">
 <div class="billedeknap">
-  <a href="#" class="TagBillede">Tag Billede</a>
+  <button onclick="document.location = 'pop-up.juice.html'">Tag Billede</button>
 </div>
 <input type="submit" class="tekst" value="Denne vare er 5 point værd.">
-
+<script>
+function goBack(){
+  window.history.back();
+}
+</script>
 </body>
 </html>

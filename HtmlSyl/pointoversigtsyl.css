@@ -21,6 +21,17 @@
     font-size: 40px;
     font-weight: bold;
   }
+  .arrow button {
+    width: 25;
+    background-color: #C31414;
+    font-size: 20px;
+    border: none;
+    color: #ffffff;
+    float: left;
+    margin-right: -10%;
+    padding: 1%;
+    cursor: pointer;
+  }
   .button {
     background-color: #C31414;
     border: none;
@@ -32,23 +43,23 @@
 
 }
    .container {
-       
+
        color: white;
        text-align: center;
-       background-color: #646464; 
+       background-color: #646464;
        height: auto;
        margin: -5%;
        width: auto;
-       margin-right: 
-     
+       margin-right:
+
 }
 .container1 img {
      width: 100px;
     height: 100px;
     margin-top: 7%;
     margin-left: 15%;
-    
-} 
+
+}
 
 .container1 h2 {
     float: right;
@@ -58,9 +69,9 @@
 hr.solid {
   border-top: 3px solid #C31414;
 }
-    
+
 .container2 h2 {
-    
+
     margin-left: 37%;
 }
 .container2 p {
@@ -68,7 +79,7 @@ hr.solid {
 
 }
 .container3 h3 {
-    
+
     margin-left: 43%;
     color: #FF0707;
 }
@@ -123,7 +134,3 @@ hr.solid {
     transition-duration: 0.4s;
 
 }
-    
-    
-    
-    
