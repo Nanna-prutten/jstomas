@@ -42,15 +42,36 @@ body {
   margin-top: 2%;
   margin-bottom: 2%;
   }
+  #container {
+    margin: 0px auto;
+    width: 300px;
+    height: 200px;
+    border: 10px #333 solid;
+  }
+  #videoElement {
+    width: 300px;
+    height: 200px;
+    background-color: #666;
+  }
+.all {
+  text-align: center;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  }
+.knapper button {
+  margin-bottom: 10%;
+  margin-top: 5%;
+  height: 45%;
+}
 .billedeknap button {
   background-color:#73AE5F;
   color: #ffffff;
   font-size: 1em;
   font-family: 'Noto Sans HK';
   text-decoration: none;
-  margin-top: 5%;
+  margin-top: 10%;
   margin-left: 9%;
-  align-content: center;
   transition-duration: 0.4s;
   border-radius: 0.75em;
   border: 0.0625em solid #ffffff;
@@ -67,7 +88,7 @@ body {
   border-radius: 1.125em;
   border: 0.0625em solid #ffffff;
   text-align: center;
-  margin-left: 30%;
+  margin-left: 25%;
   margin-top: 20%;
   }
 }

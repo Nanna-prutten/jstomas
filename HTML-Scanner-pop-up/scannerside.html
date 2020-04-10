@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link href="scannerside.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Varejagt</title>
+</head>
+<body>
+  <div class="arrow">
+  <button onclick="goBack()">&#8592;</button>
+    <div class="header">
+      <img src="coopde.png"  style="width:25%; margin-left: 38%;" alt="hvidt logo">
+    </div>
+  </div>
+<div class="overskrift">
+  <p>Find varen fra din
+    <br>liste og scan
+    <br>stregkoden!</p>
+</div>
+<input type="submit" class="xxxxxx" value="xxxxxx">
+
+<div id="container">
+  <video autoplay="true" id="videoElement">
+  </video>
+
+<div class=all>
+<div class="knapper">
+  <button onclick="document.location = 'pop-up.pasta.html'"> <strong>Pasta</strong> <br>123456789</button>
+  <button onclick="document.location = 'pop-up.ketchup.html'"> <strong>Ketchup</strong> <br>123456789</button>
+</div>
+<div class="knapper">
+  <button onclick="document.location = 'pop-up.egg.html'"> <strong>Æg</strong> <br>123456789</button>
+  <button onclick="document.location = 'pop-up.juice.html'"> <strong>Juice</strong> <br>123456789</button>
+</div>
+<div class="knapper">
+  <button onclick="document.location = 'pop-up.cheese.html'"> <strong>Ost</strong> <br>123456789</button>
+  <button onclick="document.location = 'pop-up.apple.html'"> <strong>Æbler</strong> <br>123456789</button>
+</div>
+</div>
+<div class="billedeknap">
+  <button onclick="document.location = 'pop-up.juice.html'">Tag Billede</button>
+</div>
+<input type="submit" class="tekst" value="Denne vare er 5 point værd.">
+
+<script>
+var video = document.querySelector("#videoElement");
+
+if (navigator.mediaDevices.getUserMedia) {
+   navigator.mediaDevices.getUserMedia({video: true})
+  .then(function (stream){
+    video.srcObject = stream;
+  })
+  .catch(function (err0r){
+    console.log("Something went wrong!");
+  })
+}
+function goBack(){
+  window.history.back();
+}
+</script>
+</body>
+</html>
