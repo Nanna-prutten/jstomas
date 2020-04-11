@@ -6,49 +6,66 @@
   <link href="pointoversigtsyl.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <title>Varejagt</title>
+  <title>Pointoversigt</title>
 </head>
 <body>
-  <div class="arrow">
-  <button onclick="goBack()">&#8592;</button>
+    
+ 
+  <a href="#" class="button"> <i class="material-icons" style="font-size:20px; color: #ffffff;">arrow_back</i></a>
+  <div class="header">
     <div class="header">
-      <img src="coopde.png"  style="width:25%; margin-left: 38%;" alt="hvidt logo">
+      <img src="coopde.png"  style="width:25%; margin-left: 38%;" alt="hvidt logo">      
+    </div>     
+  </div>
+    
+    <div class="container">
+        <div class= "header1"> </div>
+          <h1> Pointoversigt </h1>                    
+    </div> 
+    
+    <div class="container1">
+        <div class="img"></div>
+        <h2> XX point</h2>
+        <img src="trophy.png" alt="pokal, symboliserer ens præmie"> <!--Unsplash-->
+        <hr class="solid">
     </div>
+    
+  
+     <div class="container2"> 
+         <div class= "header2"></div>
+         <h2> GODT GÅET!</h2>
+         <p> Gem dine point til næste gang.</p>
+    </div>
+    
+    <div class="container3">
+        <div class= "header3"> </div>
+          <h3> ELLER </h3> 
+          <p> Indløs ved kassen for en valgfri bamse. </p>
+        </div>
+          
+<div class="popup" id="popup-1">
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="close-btn" onclick="togglePopup()">&times;</div>
+    <h1>Øv!</h1>
+    <p> Du har desværre ikke nok point til at indløse præmien</p>
   </div>
-<div class="container">
-  <div class= "header1"> </div>
-  <h1> Pointoversigt </h1>
 </div>
-<div class="container1">
-  <div class="img"></div>
-  <h2> XX point</h2>
-  <img src="trophy.png" alt="pokal, symboliserer ens præmie"> <!--Unsplash-->
-  <hr class="solid">
-</div>
-<div class="container2">
-  <div class= "header2"></div>
-  <h2> GODT GÅET!</h2>
-  <p> Gem dine point til næste gang.</p>
-</div>
-<div class="container3">
-  <div class= "header3"> </div>
-  <h3> ELLER </h3>
-  <p> Indløs ved kassen for en valgfri bamse. </p>
-  </div>
-<div class="container4">
-<button onclick="myFunction()">Indløs</button>
-</div>
-<div class="container5">
-  <button onclick="document.location = 'index.html'">Luk Spillet</button></div>
-</div>
-<script>
-function goBack(){
-  window.history.back();
-}
 
-function myFunction() {
-  alert("Du har ikke nok point til at indløse gaven!");
-  }
-</script>
+<button onclick="togglePopup()">Indløs præmie</button>
+         <script> 
+             function togglePopup(){
+  document.getElementById("popup-1").classList.toggle("active");
+}
+         </script>
+         
+     <div class="container5">
+         <button class="button">Luk Spillet</button>
+         
+    </div>            
+
+    
 </body>
-</html>
+</html>      
+
+
