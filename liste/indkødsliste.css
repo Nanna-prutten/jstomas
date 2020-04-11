@@ -22,16 +22,17 @@
     font-size: 40px;
     font-weight: bold;
   }
-  .button {
+  .arrow button {
+    width: 25;
     background-color: #C31414;
+    font-size: 20px;
     border: none;
-    color: white;
+    color: #ffffff;
     float: left;
     margin-right: -10%;
     padding: 1%;
+    cursor: pointer;
   }
-
-}
 
 .back-image {
   background-image: url("gangdark.jpg");
@@ -75,4 +76,5 @@
 .container input:checked ~ .checkmark {
     border-style: solid;
   border-color: red;
+}
 }

@@ -11,12 +11,12 @@
 </head>
 <body>
   <header>
-  <a href="#" class="button"> <i class="material-icons" style="font-size:20px; color: #ffffff;">arrow_back</i></a>
-  <div class="header">
-    <div class="header">
-      <img src="coopde.png"  style="width:25%; margin-left: 38%;" alt="hvidt logo">
+    <div class="arrow">
+    <button onclick="goBack()">&#8592;</button>
+      <div class="header">
+        <img src="coopde.png"  style="width:25%; margin-left: 38%;" alt="hvidt logo">
+      </div>
     </div>
-  </div>
 </header>
 <main>
   <div class="back-image">
@@ -62,3 +62,12 @@
  </div>
 
 </main>
+
+<script>
+function goBack(){
+  window.history.back();
+}
+</script>
+
+</body>
+</html>

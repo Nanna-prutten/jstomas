@@ -2,7 +2,7 @@
 .sprite {
 	width: 400px;
 	height: 400px;
-	background: url('juice.png') 0 0 no-repeat;
+	background: url('Juice.png') 0 0 no-repeat;
 	animation: play 1s steps(12) infinite;
 }
 @keyframes play {
