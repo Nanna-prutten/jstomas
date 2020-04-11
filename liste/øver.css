@@ -10,6 +10,17 @@
     padding: 10px 10px;
     align-self: center;
   }
+  .arrow button {
+    width: 25;
+    background-color: #C31414;
+    font-size: 20px;
+    border: none;
+    color: #ffffff;
+    float: left;
+    margin-right: -10%;
+    padding: 1%;
+    cursor: pointer;
+  }
   .header a {
     float: right;
     color: white;
@@ -248,4 +259,5 @@
 
 div[class*="tabcontent"]:first-of-type {
     display: block;
+}
 }
