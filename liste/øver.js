@@ -35,13 +35,6 @@ function purchaseClicked() {
     updateCartTotal()
 }
 
-function removeCartItem(event) {
-  alert('sprint animation')
-    var buttonClicked = event.target
-    buttonClicked.parentElement.parentElement.remove()
-    updateCartTotal()
-}
-
 function quantityChanged(event) {
     var input = event.target
     if (isNaN(input.value) || input.value <= 0) {
@@ -78,7 +71,7 @@ function addItemToCart(title, price, imageSrc) {
         </div>
         <span class="cart-price cart-column">${price}</span>
         <div class="cart-quantity cart-column">
-            <button class="btn btn-danger" type="button">valg</button>
+        <button class="btn btn-danger" onclick="document.location = 'scannerside.html'">tryk for at scanne</button>
         </div>`
     cartRow.innerHTML = cartRowContents
     cartItems.append(cartRow)
