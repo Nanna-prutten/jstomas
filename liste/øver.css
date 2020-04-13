@@ -10,17 +10,6 @@
     padding: 10px 10px;
     align-self: center;
   }
-  .arrow button {
-    width: 25;
-    background-color: #C31414;
-    font-size: 20px;
-    border: none;
-    color: #ffffff;
-    float: left;
-    margin-right: -10%;
-    padding: 1%;
-    cursor: pointer;
-  }
   .header a {
     float: right;
     color: white;
@@ -213,18 +202,7 @@
     border: none;
 }
 
-.cart-total {
-    text-align: end;
-    margin-top: 10px;
-    margin-right: 10px;
-}
 
-.cart-total-title {
-    font-weight: bold;
-    font-size: 1.5em;
-    color: black;
-    margin-right: 20px;
-}
 
 .cart-total-price {
     color: #333;
@@ -260,4 +238,94 @@
 div[class*="tabcontent"]:first-of-type {
     display: block;
 }
+
+@media screen and (max-width:630px) {
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans HK', sans-serif;
+  background-image: url("madhylder.png");
+  background-size: cover;
+}
+
+/* arezous css */
+.arrow button {
+  width: 25;
+  background-color: #C31414;
+  font-size: 20px;
+  border: none;
+  color: #ffffff;
+  float: left;
+  margin-right: -10%;
+  padding: 1%;
+  cursor: pointer;
+}
+.overskrift{
+  font-size: 2.5em;
+  font-family: 'Noto Sans HK';
+  text-align: center;
+  color: #ffffff;
+}
+.xxxxxx {
+  background-color: #000000;
+  opacity: 0.6;
+  color: #ffffff;
+  border-radius: 1.125em;
+  border: 0.0625em solid #ffffff;
+  text-align: center;
+  width: 40%;
+  font-size: 1.25em;
+  margin-left: 30%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  }
+  #container {
+    margin: 0px auto;
+    width: 300px;
+    height: 200px;
+    border: 10px #333 solid;
+  }
+  #videoElement {
+    width: 300px;
+    height: 200px;
+    background-color: #666;
+  }
+.all {
+  text-align: center;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  }
+.knapper button {
+  margin-bottom: 10%;
+  margin-top: 5%;
+  height: 45%;
+}
+.billedeknap button {
+  background-color:#73AE5F;
+  color: #ffffff;
+  font-size: 1em;
+  font-family: 'Noto Sans HK';
+  text-decoration: none;
+  margin-top: 10%;
+  margin-left: 9%;
+  transition-duration: 0.4s;
+  border-radius: 0.75em;
+  border: 0.0625em solid #ffffff;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 1%;
+  cursor: pointer;
+  }
+.tekst {
+  background-color: #000000;
+  opacity: 0.6;
+  width: 50%;
+  color: #ffffff;
+  border-radius: 1.125em;
+  border: 0.0625em solid #ffffff;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 20%;
+  }
 }
