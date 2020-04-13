@@ -52,7 +52,7 @@ body {
 .sprite {
 	width: 372px;
 	height: 400px;
-	background: url('Pasta%20animation-01.png') 0 0 no-repeat;
+	background: url('images/Pasta.png') 0 0 no-repeat;
 	animation: play 2s steps(6) infinite;
 }
 @keyframes play {

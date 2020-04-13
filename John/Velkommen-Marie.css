@@ -2,127 +2,113 @@
 body {
 margin: 0;
 font-family: 'Noto Sans HK', sans-serif;
-
 }
-
 .header {
-overflow: hidden;
-background-color: #C31414;
-padding: 10px 10px;
-align-self: center;
-
+  overflow: hidden;
+  background-color: #C31414;
+  padding: 10px 10px;
+  align-self: center;
 }
-.header a {
-float: right;
-color: white;
-padding: 40%;
-font-size: 25px;
-line-height: 25px;
-border-radius: 4px;
-
+.arrow button {
+  background-color: #C31414;
+  font-size: 20px;
+  border: none;
+  color: #ffffff;
+  float: left;
+  margin-right: -10%;
+  padding: 1%;
+  cursor: pointer;
 }
-.header a.logo {
-font-size: 40px;
-font-weight: bold;
-}
-
 .button {
-background-color: #C31414;
-border: none;
-color: white;
-float: left;
-margin-right: -10%;
-padding: 1%;
-  }
-
+  background-color: #C31414;
+  border: none;
+  color: white;
+  float: left;
+  margin-right: -10%;
+  padding: 1%;
+  font-family: 'Noto Sans HK', sans-serif;
+}
 body {
-background-image: url(images/Velkommenmarie.jpg);
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: center;
-background-size: cover;
+  background-image: url(images/Velkommenmarie.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
-
-div.Velkomstboksen {
-margin: 1.275em;
-margin-left: 2.5em;
-background-color: #000000;
-opacity: 0.75;
-border-radius: 1.125em;
-border: 0.0625em solid #ffffff;
-padding: 10px;
-width: 12.5em;
-height: 1em;
+.Velkomstboksen {
+  margin: 1.275em;
+  background-color: #000000;
+  opacity: 0.75;
+  border-radius: 1.125em;
+  border: 0.0625em solid #ffffff;
+  padding: 10px;
+  width: 12.5em;
+  height: 1em;
+  margin-left: 18%;
 }
-
-div.TekstenindeiVelkomstboksen {
-margin: -16%;
-color:white;
-text-align: center;
-font-size: 1.4em;
-font-family: Noto Sans HK;
-font-weight: bold;
+.TekstenindeiVelkomstboksen {
+  margin: -16%;
+  color: #fff;
+  text-align: center;
+  font-size: 1.4em;
+  font-family: 'Noto Sans HK';
+  font-weight: bold;
 }
-
-div.Aldersgruppen {
-margin: 1.275em;
-margin-top: 6em;
-margin-left: 1.5em;
-background-color: #000000;
-opacity: 0.75;
-border-radius: 1.125em;
-border: 0.0625em solid #ffffff;
-padding: 10px;
-width: 14.5em;
-height: 0.6em;
+.Aldersgruppen {
+  margin: 1.275em;
+  margin-top: 6em;
+  margin-left: 1.5em;
+  background-color: #000000;
+  opacity: 0.75;
+  border-radius: 1.125em;
+  border: 0.0625em solid #ffffff;
+  font-family: 'Noto Sans HK';
+  padding: 10px;
+  width: 14.5em;
+  height: 0.6em;
+  margin-left: 16%;
 }
-
-div.TeksttilAldersgruppen {
-margin: -10%;
-color:white;
-text-align: center;
-font-size: 1.0em;
-font-family: Noto Sans HK;
+.TeksttilAldersgruppen {
+  margin: -10%;
+  color:white;
+  text-align: center;
+  font-size: 1.0em;
+  font-family: 'Noto Sans HK';
 }
-
-div.AldersSpecifikationer {
-margin: 10%;
-margin-left: 6em;
-background-color: #000000;
-opacity: 0.50;
-border-radius: 1.125em;
-border: 0.0625em solid #ffffff;
-padding: 0.5375em;
-width: 5.375em;
-height: 5.375em;
+.AldersSpecifikationer {
+  margin-top: 10%;
+  margin-left: 6em;
+  text-align: center;
+  background-color: #000000;
+  opacity: 0.50;
+  border-radius: 1.125em;
+  border: 0.0625em solid #ffffff;
+  padding: 0.5375em;
+  width: 5.375em;
+  height: 5.375em;
 }
-
-div.TeksttilAldersSpecifikationer {
-margin: 10%;
-margin-top: -30%;
-color:white;
-text-align: center;
-font-size:1.7em;
-font-family: Noto Sans HK;
-font-weight: bold;
+.TeksttilAldersSpecifikationer {
+  margin-top: -40%;
+  color: #fff;
+  font-size: 2em;
+  font-family: 'Noto Sans HK';
+  font-weight: bold;
 }
-
 .Startknappen {
-font-size: 1em;
-font-family: 'Noto Sans HK';
-transition-duration: 0.4s;
-align-content: center;
+  font-size: 1em;
+  font-family: 'Noto Sans HK';
+  transition-duration: 0.4s;
+  align-content: center;
 }
-
 .StartSpillet {
   margin-left: 15%;
-background-color:#73AE5F;
-color: #ffffff;
-text-decoration: none;
-border-radius: 0.75em;
-border: 0.0625em solid #ffffff;
-text-align: center;
-padding-left: 20%;
-padding-right: 20%;
-padding-bottom: 1%;
+  background-color:#73AE5F;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 0.75em;
+  border: 0.0625em solid #ffffff;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 1%;
 }

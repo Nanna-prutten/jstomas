@@ -52,7 +52,7 @@ body {
 .sprite {
 	width: 370px;
 	height: 400px;
-	background: url('Agurk%20animation-01.png') 0 0 no-repeat;
+	background: url('images/Agurk.png') 0 0 no-repeat;
 	animation: play 2s steps(6) infinite;
 }
 @keyframes play {

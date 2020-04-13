@@ -9,20 +9,7 @@ body {
   padding: 10px 10px;
   align-self: center;
   }
-.header a {
-  float: right;
-  color: white;
-  padding: 40%;
-  font-size: 25px;
-  line-height: 25px;
-  border-radius: 4px;
-  }
-.header a.logo {
-  font-size: 40px;
-  font-weight: bold;
-  }
 .arrow button {
-  width: 25;
   background-color: #C31414;
   font-size: 20px;
   border: none;
