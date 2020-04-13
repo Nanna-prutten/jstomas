@@ -1,0 +1,156 @@
+@media screen and (max-width:630px) {
+  }
+body {
+margin: 0;
+font-family: 'Noto Sans HK', sans-serif;
+}
+
+.header {
+overflow: hidden;
+background-color: #C31414;
+padding: 10px 10px;
+align-self: center;
+
+}
+.header a {
+float: right;
+color: white;
+padding: 40%;
+font-size: 25px;
+line-height: 25px;
+border-radius: 4px;
+
+}
+.header a.logo {
+font-size: 40px;
+font-weight: bold;
+}
+
+.button1 {
+background-color: #C31414;
+border: none;
+color: white;
+float: left;
+margin-right: -10%;
+padding: 1%;
+  }
+
+body {
+background-image: url(images/Pointoversigt.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+
+div.Pointoversigt {
+margin: 0em;
+margin-left: -10%;
+background-color: #000000;
+opacity: 0.75;
+border-radius: 1.125em;
+border: 0.0625em solid #ffffff;
+padding: 10px;
+width: 22em;
+height: 1em;
+}
+
+div.TekstenindeiPointoversigten {
+margin: -10%;
+color:white;
+text-align: center;
+font-size: 1.5em;
+font-family: Noto Sans HK;
+font-weight: bold;
+}
+
+.Trophy {
+}
+
+img {
+
+vertical-align: bottom;
+}
+
+div.SeperationsBar1 {
+margin: 1.275em;
+margin-top: -0.1em;
+margin-left: -10%;
+margin-bottom: 0.5em;
+background-color: #C31414;
+opacity: 1;
+border-radius: 1.125em;
+border: 0.0625em solid #ffffff;
+padding: 5px;
+width: 22em;
+}
+
+div.Visesvedkassen {
+margin-left: 1.5em;
+margin-bottom: 2.75em;
+background-color: #white;
+border-radius: 0.125em;
+border: 0.0625em;
+padding: 10px;
+width: 14.5em;
+height: 0.6em;
+}
+
+div.TeksttilVisesvedkassen {
+margin: -10%;
+color:black;
+text-align: center;
+font-size: 1.5em;
+font-family: Noto Sans HK;
+}
+
+.Bamse {
+background-color: #white;
+padding: 10px 10px;
+align-self: center;
+margin-top: 0.75em;
+margin-left: 5em;
+margin-bottom: 1.75em;
+}
+
+.Startknappen {
+font-size: 1em;
+font-family: 'Noto Sans HK';
+transition-duration: 0.4s;
+align-content: center;
+}
+
+.StartSpillet {
+  margin-left: 15%;
+background-color:#73AE5F;
+color: #ffffff;
+text-decoration: none;
+border-radius: 0.75em;
+border: 0.0625em solid #ffffff;
+text-align: center;
+padding-left: 20%;
+padding-right: 20%;
+padding-bottom: 1%;
+}
+
+.button2 {
+  background-color: #73AE5F;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  width:100%;
+  }
+
+.dekoration {
+  margin-bottom: 0.25em;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+}
