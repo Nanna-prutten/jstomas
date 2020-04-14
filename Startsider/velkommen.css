@@ -9,18 +9,6 @@ body {
   padding: 10px 10px;
   align-self: center;
 }
-.header a {
-  float: right;
-  color: white;
-  padding: 40%;
-  font-size: 25px;
-  line-height: 25px;
-  border-radius: 4px;
-}
-.header a.logo {
-  font-size: 40px;
-  font-weight: bold;
-}
 .button {
   background-color: #C31414;
   border: none;
@@ -88,7 +76,6 @@ div.te {
   padding: 1.5625em;
   transition-duration: 0.4s;
 }
-}
 
 .gruppe{
   border: 1px solid #ffffff;
@@ -129,9 +116,9 @@ div.te {
   background-color: #eee;
 }
 
-
 /* When the checkbox is checked, add a blue background */
 .container input:checked ~ .checkmark {
-    border-style: solid;
+  border-style: solid;
   border-color: red;
+}
 }

@@ -2,7 +2,7 @@
 .sprite {
 	width: 800px;
 	height: 400px;
-	background: url('Leverpostej.png') 0 0 no-repeat;
+	background: url('images/Leverpostej.png') 0 0 no-repeat;
 	animation: play 1s steps(11) infinite;
 }
 @keyframes play {
