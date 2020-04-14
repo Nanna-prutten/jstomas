@@ -54,7 +54,7 @@ body {
 	height: 300px;
   margin-top: 2%;
   margin-left: 4%;
-	background: url('Egg.gif') 0 0 no-repeat;
+	background: url('images/Egg.gif') 0 0 no-repeat;
 	animation: play 1m steps(10) infinite;
 }
 @keyframes play {

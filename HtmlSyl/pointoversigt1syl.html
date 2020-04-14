@@ -9,40 +9,34 @@
   <title>Pointoversigt</title>
 </head>
 <body>
-    
- 
-  <a href="#" class="button"> <i class="material-icons" style="font-size:20px; color: #ffffff;">arrow_back</i></a>
-  <div class="header">
+  <div class="arrow">
+  <button onclick="goBack()">&#8592;</button>
     <div class="header">
-      <img src="coopde.png"  style="width:25%; margin-left: 38%;" alt="hvidt logo">      
-    </div>     
+      <img src="coopde.png"  style="width:25%; margin-left: 38%;" alt="hvidt logo">
+    </div>
   </div>
-    
+</div>
+</div>
     <div class="container">
         <div class= "header1"> </div>
-          <h1> Pointoversigt </h1>                    
-    </div> 
-    
+          <h1> Pointoversigt </h1>
+    </div>
     <div class="container1">
         <div class="img"></div>
         <h2> XX point</h2>
         <img src="trophy.png" alt="pokal, symboliserer ens præmie"> <!--Unsplash-->
         <hr class="solid">
     </div>
-    
-  
-     <div class="container2"> 
+     <div class="container2">
          <div class= "header2"></div>
          <h2> GODT GÅET!</h2>
          <p> Gem dine point til næste gang.</p>
     </div>
-    
     <div class="container3">
         <div class= "header3"> </div>
-          <h3> ELLER </h3> 
+          <h3> ELLER </h3>
           <p> Indløs ved kassen for en valgfri bamse. </p>
         </div>
-          
 <div class="popup" id="popup-1">
   <div class="overlay"></div>
   <div class="content">
@@ -51,21 +45,19 @@
     <p> Du har desværre ikke nok point til at indløse præmien</p>
   </div>
 </div>
-
+<div class="knap">
 <button onclick="togglePopup()">Indløs præmie</button>
-         <script> 
-             function togglePopup(){
+</div>
+<script>
+function togglePopup(){
   document.getElementById("popup-1").classList.toggle("active");
 }
-         </script>
-         
-     <div class="container5">
-         <button class="button">Luk Spillet</button>
-         
-    </div>            
-
-    
+function goBack(){
+  window.history.back();
+}
+</script>
+<div class="container5">
+<button class="button">Luk Spillet</button>
+</div>
 </body>
-</html>      
-
-
+</html>

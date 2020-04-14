@@ -100,17 +100,7 @@ header a {
   margin-bottom: 30px;
   cursor: text;
 }
-.kasse-sort {
-  background: rgba(0, 0, 0, 0.4);
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  border-radius: 20px;
-  border: 1px solid #ffffff;
-  padding: 2px;
-  margin-bottom: 30px;
-  cursor: text;
-}
+
 
 .links-knapper p {
   text-align: center;
@@ -126,13 +116,44 @@ header a {
 label {
   text-align: center;
   color: white;
+
 }
 
 input {
-  border: 2px solid white;
-  border-radius: 4px;
+  margin: 1em;
+  color: #ffffff;
+  background-color:#C31414;
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Noto Sans HK';
+
 }
 
+.input {
+  border: 2px solid #C31414;
+  border-bottom: 2px solid white;
+  margin: 1em;
+  color: #ffffff;
+  background-color:#C31414;
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Noto Sans HK';
+}
+
+.input2{
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background-color:#C31414;
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Noto Sans HK';
+  width: 80%;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  padding: 0.5em;
+  margin-left:11%;
+  font-size: 15px;
+}
 
 /*Velkommen*/
 .wrapper-velkommen {
