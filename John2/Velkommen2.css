@@ -36,27 +36,27 @@ body {
   background-size: cover;
 }
 .Velkomstboksen {
-  margin: 1.275em;
+  margin-top: 10%;
   background-color: #000000;
   opacity: 0.75;
   border-radius: 1.125em;
   border: 0.0625em solid #ffffff;
   padding: 10px;
   width: 12.5em;
+  margin-left: 22%;
   height: 1em;
-  margin-left: 18%;
 }
 .TekstenindeiVelkomstboksen {
-  margin: -16%;
+  margin: -25%;
   color: #fff;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 2em;
   font-family: 'Noto Sans HK';
   font-weight: bold;
 }
 .Aldersgruppen {
   margin: 1.275em;
-  margin-top: 6em;
+  margin-top: 35%;;
   margin-left: 1.5em;
   background-color: #000000;
   opacity: 0.75;
@@ -76,39 +76,37 @@ body {
   font-family: 'Noto Sans HK';
 }
 .AldersSpecifikationer {
-  margin-top: 10%;
-  margin-left: 6em;
-  text-align: center;
+  margin-top: 15%;
+  margin-left: 29%;
   background-color: #000000;
   opacity: 0.50;
   border-radius: 1.125em;
   border: 0.0625em solid #ffffff;
-  padding: 0.5375em;
+  padding: 2em;
   width: 5.375em;
   height: 5.375em;
 }
 .TeksttilAldersSpecifikationer {
   margin-top: -40%;
+  text-align: center;
   color: #fff;
   font-size: 2em;
   font-family: 'Noto Sans HK';
   font-weight: bold;
 }
-.Startknappen {
-  font-size: 1em;
-  font-family: 'Noto Sans HK';
-  transition-duration: 0.4s;
-  align-content: center;
-}
-.StartSpillet {
-  margin-left: 15%;
+.start button {
   background-color:#73AE5F;
   color: #ffffff;
+  font-size: 1em;
+  font-family: 'Noto Sans HK';
   text-decoration: none;
+  margin-top: 40%;
+  margin-left: 13%;
+  transition-duration: 0.4s;
   border-radius: 0.75em;
   border: 0.0625em solid #ffffff;
-  text-align: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 25%;
+  padding-right: 25%;
   padding-bottom: 1%;
+  }
 }
