@@ -7,11 +7,12 @@ body {
   background-color: #C31414;
   padding: 0.625em 0.625em;
   align-self: center;
+  width: auto;
 }
 .arrow button {
   width: 25;
   background-color: #C31414;
-  font-size: 20px;
+  font-size: 1.5em;
   border: none;
   color: #ffffff;
   float: left;
@@ -32,8 +33,6 @@ body {
 /*Index*/
 .wrapper-index {
   margin: auto;
-  min-width: 275px;
-  max-width: 630px;
   min-height: calc(100vh - 81.28px);
   background-image: url(startside.png);
   background-repeat: no-repeat;
@@ -85,18 +84,15 @@ body {
   margin-bottom: 30px;
   margin-top: 15%;
 }
-.gruppe{
-  border: 1px solid #ffffff;
+.boksenalder{
+  width: 75%;
+  margin: auto;
   background-color: #C31414;
-  width: 80%;
   text-align: center;
   border-radius: 16px;
   border: 1px solid #ffffff;
-  padding: 0.5em;
-  padding-left: 30%;
-  padding-right: 30%;
-  margin-left: 7%;
-  font-size: 15px;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 .links-knapper p {
   text-align: center;
@@ -112,6 +108,7 @@ label {
   text-align: center;
   color: white;
   margin-left: 5%;
+  font-size: 20px;
 }
 input {
   border: 2px solid white;
@@ -124,8 +121,6 @@ input {
 /*Velkommen*/
 .wrapper-velkommen {
   margin: auto;
-  min-width: 275px;
-  max-width: 630px;
   min-height: calc(100vh - 81.28px);
   background-image: url(medarbejdere.jpg);
   background-repeat: no-repeat;
@@ -149,21 +144,18 @@ input {
   margin-right: 5%;
   }
 .næste button {
-  background-color: #73AE5F;
+  background-color:#73AE5F;
   color: #ffffff;
   font-size: 1em;
   font-family: 'Noto Sans HK';
   text-decoration: none;
-  width: 18.25em;
   margin-top: 10%;
-  margin-left: 8.8%;
+  margin-left: 15%;
   transition-duration: 0.4s;
   border-radius: 0.75em;
   border: 0.0625em solid #ffffff;
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 28.5%;
+  padding-right: 28.5%;
   padding-bottom: 1%;
-  padding-top: 1%;
   cursor: pointer;
-  }
 }
