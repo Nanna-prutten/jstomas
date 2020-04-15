@@ -71,7 +71,7 @@ function addItemToCart(title, price, imageSrc) {
         </div>
         <span class="cart-price cart-column">${price}</span>
         <div class="cart-quantity cart-column">
-        <button class="btn btn-danger" onclick="document.location = 'scannerside.html'">tryk for at scanne</button>
+        <button class="btn btn-danger" onclick="document.location = 'scannerside.html'">tryk og scan</button>
         </div>`
     cartRow.innerHTML = cartRowContents
     cartItems.append(cartRow)
