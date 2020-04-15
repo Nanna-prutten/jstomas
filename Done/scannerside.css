@@ -153,7 +153,7 @@ h1{
 .sprite {
 	width: 350px;
 	height: 305px;
-	background: url('images/Juice.png') 0 0 no-repeat;
+	background: url('Juice.png') 0 0 no-repeat;
 	animation: play 1s steps(12) infinite;
 }
 @keyframes play {
