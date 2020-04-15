@@ -35,7 +35,7 @@ body {
   min-width: 275px;
   max-width: 630px;
   min-height: calc(100vh - 81.28px);
-  background-image: url(images/startside.png);
+  background-image: url(startside.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -127,7 +127,7 @@ input {
   min-width: 275px;
   max-width: 630px;
   min-height: calc(100vh - 81.28px);
-  background-image: url(images/medarbejdere.jpg);
+  background-image: url(medarbejdere.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;

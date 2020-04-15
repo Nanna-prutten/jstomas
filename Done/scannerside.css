@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: 'Noto Sans HK', sans-serif;
-  background-image: url("images/madhylder.png");
+  background-image: url("madhylder.png");
   background-size: cover;
 }
 .header {
